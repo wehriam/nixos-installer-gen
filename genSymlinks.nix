@@ -18,8 +18,9 @@
       use warnings;
       use JSON;
       use Nix::Store;
+      use Nix;
 
-      isValidPath("/nix/store/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-foo"); # FIXME: forces Nix::Store initialisation
+      Nix::initNix();
 
       sub makeLinks {
           my ($fn, $name) = @_;

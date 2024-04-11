@@ -1,4 +1,5 @@
 ## Nixos installer generator
+Forked from: https://gitlab.com/genericnerdyusername/nixos-installer-gen
 
 Example usage:
 ```nix
